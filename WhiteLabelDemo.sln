@@ -15,6 +15,7 @@ Global
 		Release|iPhoneSimulator = Release|iPhoneSimulator
 		Debug|iPhone = Debug|iPhone
 		Release|iPhone = Release|iPhone
+		DebugFlavor2|Any CPU = DebugFlavor2|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{B72B1C6C-DBE0-4A97-87EC-2E770D407DE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -29,6 +30,8 @@ Global
 		{B72B1C6C-DBE0-4A97-87EC-2E770D407DE4}.Debug|iPhone.Build.0 = Debug|Any CPU
 		{B72B1C6C-DBE0-4A97-87EC-2E770D407DE4}.Release|iPhone.ActiveCfg = Release|Any CPU
 		{B72B1C6C-DBE0-4A97-87EC-2E770D407DE4}.Release|iPhone.Build.0 = Release|Any CPU
+		{B72B1C6C-DBE0-4A97-87EC-2E770D407DE4}.DebugFlavor2|Any CPU.ActiveCfg = DebugFlavor2|Any CPU
+		{B72B1C6C-DBE0-4A97-87EC-2E770D407DE4}.DebugFlavor2|Any CPU.Build.0 = DebugFlavor2|Any CPU
 		{57DF610B-E90A-4187-9437-202822E1FE29}.Debug|Any CPU.ActiveCfg = Debug|iPhoneSimulator
 		{57DF610B-E90A-4187-9437-202822E1FE29}.Debug|Any CPU.Build.0 = Debug|iPhoneSimulator
 		{57DF610B-E90A-4187-9437-202822E1FE29}.Release|Any CPU.ActiveCfg = Release|iPhoneSimulator
@@ -41,6 +44,8 @@ Global
 		{57DF610B-E90A-4187-9437-202822E1FE29}.Debug|iPhone.Build.0 = Debug|iPhone
 		{57DF610B-E90A-4187-9437-202822E1FE29}.Release|iPhone.ActiveCfg = Release|iPhone
 		{57DF610B-E90A-4187-9437-202822E1FE29}.Release|iPhone.Build.0 = Release|iPhone
+		{57DF610B-E90A-4187-9437-202822E1FE29}.DebugFlavor2|Any CPU.ActiveCfg = DebugFlavor2|iPhoneSimulator
+		{57DF610B-E90A-4187-9437-202822E1FE29}.DebugFlavor2|Any CPU.Build.0 = DebugFlavor2|iPhoneSimulator
 		{58ABCC22-537A-478D-BE1E-041697DB5F3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{58ABCC22-537A-478D-BE1E-041697DB5F3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58ABCC22-537A-478D-BE1E-041697DB5F3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -53,5 +58,7 @@ Global
 		{58ABCC22-537A-478D-BE1E-041697DB5F3F}.Debug|iPhone.Build.0 = Debug|Any CPU
 		{58ABCC22-537A-478D-BE1E-041697DB5F3F}.Release|iPhone.ActiveCfg = Release|Any CPU
 		{58ABCC22-537A-478D-BE1E-041697DB5F3F}.Release|iPhone.Build.0 = Release|Any CPU
+		{58ABCC22-537A-478D-BE1E-041697DB5F3F}.DebugFlavor2|Any CPU.ActiveCfg = DebugFlavor2|Any CPU
+		{58ABCC22-537A-478D-BE1E-041697DB5F3F}.DebugFlavor2|Any CPU.Build.0 = DebugFlavor2|Any CPU
 	EndGlobalSection
 EndGlobal
