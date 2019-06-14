@@ -23,9 +23,9 @@
 	<key>MinimumOSVersion</key>
 	<string>8.0</string>
 	<key>CFBundleDisplayName</key>
-	<string>WhiteLabelDemo</string>
+	<string>WhiteLabel Flav1</string>
 	<key>CFBundleIdentifier</key>
-	<string>de.develappers.WhiteLabelDemo1</string>
+	<string>de.develappers.WhiteLabelFlav1</string>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
 	<key>UILaunchStoryboardName</key>
