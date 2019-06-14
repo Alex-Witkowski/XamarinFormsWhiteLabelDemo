@@ -12,7 +12,7 @@
         <Label Text="Welcome to Xamarin.Forms!" HorizontalOptions="Center" />
         <Image Source="MyImage.png" BackgroundColor="Black" HeightRequest="200" WidthRequest="200"/>
         <Label x:Name="DemoLabel" />
-        <Button Text="Click me! Feature A" IsVisible="{x:Static flavors:Settings.IsFeatureAEnabled}"/>
+        <Button Text="Click me! Feature A" Style="{StaticResource SampleButtonStyle}" IsVisible="{x:Static flavors:Settings.IsFeatureAEnabled}"/>
         <Button Text="Click me! Feature B" IsVisible="{x:Static flavors:Settings.IsFeatureBEnabled}"/>
     </StackLayout>
 </ContentPage>
