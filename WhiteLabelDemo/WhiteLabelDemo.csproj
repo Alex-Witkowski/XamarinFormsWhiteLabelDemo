@@ -26,4 +26,21 @@
     <PackageReference Include="Xamarin.Forms" Version="3.6.0.264807" />
     <PackageReference Include="Xamarin.Essentials" Version="1.0.1" />
   </ItemGroup>
+
+  <!-- <ItemGroup >
+    <Compile Remove="Flavors\**" />
+  </ItemGroup>
+
+  <ItemGroup >
+    <Compile Include="Flavors\$(Flavor)\**" />
+  </ItemGroup> -->
+
+  <ItemGroup Condition=" '$(Flavor)' != 'Flavor2' ">
+    <Compile Remove="Flavors\Flavor2\Settings.cs" />
+  </ItemGroup>
+
+  <ItemGroup Condition=" '$(Flavor)' != 'Flavor1' ">
+    <Compile Remove="Flavors\Flavor1\Settings.cs" />
+  </ItemGroup>
+
 </Project>

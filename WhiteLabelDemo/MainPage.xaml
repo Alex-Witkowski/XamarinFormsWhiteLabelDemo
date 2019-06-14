@@ -3,12 +3,16 @@
     xmlns="http://xamarin.com/schemas/2014/forms" 
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
-    xmlns:local="clr-namespace:WhiteLabelDemo" 
+    xmlns:local="clr-namespace:WhiteLabelDemo"
+    xmlns:flavors="clr-namespace:WhiteLabelDemo.Flavors"
     ios:Page.UseSafeArea="true"
     x:Class="WhiteLabelDemo.MainPage">
     <StackLayout>
         <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+        <Label Text="Welcome to Xamarin.Forms!" HorizontalOptions="Center" />
         <Image Source="MyImage.png" BackgroundColor="Black" HeightRequest="200" WidthRequest="200"/>
+        <Label x:Name="DemoLabel" />
+        <Button Text="Click me! Feature A" IsVisible="{x:Static flavors:Settings.IsFeatureAEnabled}"/>
+        <Button Text="Click me! Feature B" IsVisible="{x:Static flavors:Settings.IsFeatureBEnabled}"/>
     </StackLayout>
 </ContentPage>

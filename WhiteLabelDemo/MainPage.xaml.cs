@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+using WhiteLabelDemo.Flavors;
 
 namespace WhiteLabelDemo
 {
@@ -16,6 +17,7 @@ namespace WhiteLabelDemo
         public MainPage()
         {
             InitializeComponent();
+            DemoLabel.Text = Settings.TestString;
         }
     }
 }
