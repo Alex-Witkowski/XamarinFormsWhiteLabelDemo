@@ -117,6 +117,9 @@
       <Link>Info.plist</Link>
     </None>
     <Compile Include="Properties\AssemblyInfo.cs" />
+        <BundleResource Include="Flavors\$(Flavor)\MyImage.png">
+      <Link>Resources\MyImage.png</Link>
+    </BundleResource>
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
