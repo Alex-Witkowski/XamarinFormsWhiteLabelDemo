@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
+    <!-- set default Falvor/Brand -->
+    <Flavor Condition="'$(Flavor)'==''">Flavor1</Flavor>
+  </PropertyGroup>
+
+  <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{B72B1C6C-DBE0-4A97-87EC-2E770D407DE4}</ProjectGuid>

@@ -5,6 +5,11 @@
     <ProduceAssemblyReference>true</ProduceAssemblyReference>
   </PropertyGroup>
 
+  <PropertyGroup>
+    <!-- set default Falvor/Brand -->
+    <Flavor Condition="'$(Flavor)'==''">Flavor1</Flavor>
+  </PropertyGroup>
+
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DebugType>pdbonly</DebugType>
     <DebugSymbols>true</DebugSymbols>
