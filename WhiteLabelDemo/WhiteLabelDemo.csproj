@@ -27,20 +27,21 @@
     <PackageReference Include="Xamarin.Essentials" Version="1.0.1" />
   </ItemGroup>
 
-  <!-- <ItemGroup >
+  <ItemGroup>
     <Compile Remove="Flavors\**" />
   </ItemGroup>
 
-  <ItemGroup >
+  <ItemGroup>
     <Compile Include="Flavors\$(Flavor)\**" />
-  </ItemGroup> -->
+    <Compile Include="Flavors\Flavors.cs" />
+  </ItemGroup>
 
-  <ItemGroup Condition=" '$(Flavor)' != 'Flavor2' ">
+  <!-- <ItemGroup Condition=" '$(Flavor)' != 'Flavor2' ">
     <Compile Remove="Flavors\Flavor2\Settings.cs" />
   </ItemGroup>
 
   <ItemGroup Condition=" '$(Flavor)' != 'Flavor1' ">
     <Compile Remove="Flavors\Flavor1\Settings.cs" />
-  </ItemGroup>
+  </ItemGroup> -->
 
 </Project>
