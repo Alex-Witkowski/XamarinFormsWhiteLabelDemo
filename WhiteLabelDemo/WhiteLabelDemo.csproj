@@ -29,19 +29,15 @@
 
   <ItemGroup>
     <Compile Remove="Flavors\**" />
+    <EmbeddedResource Remove="Flavors\**" />
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Include="Flavors\$(Flavor)\**" />
+    <Compile Include="Flavors\$(Flavor)\*.cs" />
+    <EmbeddedResource Include="Flavors\$(Flavor)\*.xaml" />
     <Compile Include="Flavors\Flavors.cs" />
   </ItemGroup>
-
-  <!-- <ItemGroup Condition=" '$(Flavor)' != 'Flavor2' ">
-    <Compile Remove="Flavors\Flavor2\Settings.cs" />
+  <ItemGroup>
+    <Folder Include="Flavors\Flavor1\" />
   </ItemGroup>
-
-  <ItemGroup Condition=" '$(Flavor)' != 'Flavor1' ">
-    <Compile Remove="Flavors\Flavor1\Settings.cs" />
-  </ItemGroup> -->
-
 </Project>
